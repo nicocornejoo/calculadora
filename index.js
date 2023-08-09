@@ -30,7 +30,7 @@ buttons.forEach(button =>{
             return;
         }
 
-        if (pantalla.textContent === '/') {
+        if (pantalla.textContent === '÷') {
             if (buttonClick === 'Error!') {
                 pantalla.textContent === 0
             }
