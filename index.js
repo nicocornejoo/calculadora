@@ -6,6 +6,7 @@ buttons.forEach(button =>{
     button.addEventListener('click', () =>{
         const buttonClick = button.textContent;
 
+
         if(button.id === 'c') {
             pantalla.textContent = '0'
             return;
